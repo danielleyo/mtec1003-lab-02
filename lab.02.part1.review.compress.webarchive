@@ -1,0 +1,239 @@
+bplist00�_WebMainResource�	
+_WebResourceMIMEType_WebResourceTextEncodingName^WebResourceURL_WebResourceFrameName_WebResourceDataYtext/htmlUutf-8_file:///index.htmlPO5<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1894.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Courier; color: #000000; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; color: #000000; -webkit-text-stroke: #000000; min-height: 13.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; color: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {font-variant-ligatures: no-common-ligatures}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;pre style="word-wrap: break-word; white-space: pre-wrap;"&gt;MTEC1003 —&amp;nbsp;LAB 02 (revised 8/9/20 —lg)</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">LAB 2 / PART 1: Review</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">Follow the instructions line-by-line. <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">* Type in the commands as is, but ignore the beginning prompt. <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">* Enter, tab, up and down are represented by &amp;lt;ENTER&amp;gt;&amp;lt;TAB&amp;gt;,&amp;lt;UP&amp;gt; and &amp;lt;DOWN&amp;gt;. <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">* "No output" or "nothing happens" are valid answers to any of the questions.</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">This lab will review downloading and uncompressing files, and it will get us set up for the remainder of the labs.</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">1. Go to your home directory.</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command that you used to do this below:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Cd desktop/</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">2. Prove that you're in your home directory.</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command that you used to do this - as well as its output - below :</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">pwd</span></p>
+<p class="p2"><span class="s1">/Users/danielleyostolaza</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">3. Create a new directory inside your home directory named after this class. Call it "mtec1003".</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command that you used to do this:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p2"><span class="s1">mkdir mtec1003</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">4.<span class="Apple-converted-space">  </span>A compressed archive (.tar.gz) of some lab files we're using today lives at this url:<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/03/mtec1003-lab-02.tar.gz</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Using a Terminal command that we learned,<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">download this file to your home directory into a file called mtec1003-lab-02.tar.gz</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">This command should have a *flag* to specify the output file.</span></p>
+<p class="p1"><span class="s1">MAKE SURE TO NAME YOUR OUTPUT FILE: mtec1003-lab-02.tar.gz</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command(s) that you used to download this file:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space"> </span>curl -o http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/03/mtec1003-lab-02.tar.gz mtec1003-lab-02.tar.gz</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">5.<span class="Apple-converted-space">  </span>Uncompress the file that you just downloaded. (Remember which command to use for this type of archive...)</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command(s) that you used to do this - as well as its output - below:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p2"><span class="s1">tar -xvf mtec1003-lab-02.tar.gz</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">6.<span class="Apple-converted-space">  </span>You should now have a directory called mtec1003-lab-02 inside your mtec1003 directory,<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">which is inside your home directory. Verify that this directory exists.</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">If the directory does not exist, start over from step #1.</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Otherwise...</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command(s) that you used to do this - as well as its output - below:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p3"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">Ls -l</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p2"><span class="s1">Applications</span></p>
+<p class="p2"><span class="s1">Creative Cloud Files</span></p>
+<p class="p2"><span class="s1">Desktop</span></p>
+<p class="p2"><span class="s1">Documents</span></p>
+<p class="p2"><span class="s1">Downloads</span></p>
+<p class="p2"><span class="s1">Library</span></p>
+<p class="p2"><span class="s1">Movies</span></p>
+<p class="p2"><span class="s1">Music</span></p>
+<p class="p2"><span class="s1">Pictures</span></p>
+<p class="p2"><span class="s1">Public</span></p>
+<p class="p2"><span class="s1">animals</span></p>
+<p class="p2"><span class="s1">backup</span></p>
+<p class="p2"><span class="s1">danielley.ostolaza@mail.citytech.cuny.edu Creative Cloud Files</span></p>
+<p class="p2"><span class="s1">foo</span></p>
+<p class="p2"><span class="s1">food</span></p>
+<p class="p2"><span class="s1">hello.txt</span></p>
+<p class="p2"><span class="s1">mtec1002</span></p>
+<p class="p2"><span class="s1">mtec1003</span></p>
+<p class="p2"><span class="s1">mtec1003-lab-02</span></p>
+<p class="p2"><span class="s1">nano.save</span></p>
+<p class="p2"><span class="s1">stuff</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">7.<span class="Apple-converted-space">  </span>What directories are in the mtec1003-lab-02 folder?</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command(s) that you used to determine this - as well as its output - below:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p2"><span class="s1">ls<span class="Apple-converted-space">  </span>mtec1003-lab-02<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">8.<span class="Apple-converted-space">  </span>Go back to your home directory. Then change to the science-fiction directory using a relative path.<span class="Apple-converted-space">  </span>The directory is located in books... which is located in the mtec1003-lab-02 directory.<span class="Apple-converted-space">  </span>Verify you're in the right directory using pwd.</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the commands, including going home, that you used to do this:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+pwd science fiction</span></p>
+<p class="p1"><span class="s1">Pwd mtec1003-lab-02<br>
+<br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">9.<span class="Apple-converted-space">  </span>Write the files that are in the science fiction directory below.</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command(s) that you used to do this - as well as its output - below:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1">No outcome</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">10.<span class="Apple-converted-space">  </span>Return to your home directory again. <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">Now, go back to the science-fiction directory using an ABSOLUTE PATH!</span></p>
+<p class="p1"><span class="s1">Verify that you're in the right directory using pwd.</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command(s) that you used to do this below:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+ls</span></p>
+<p class="p1"><span class="s1">Pwd science fiction<br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">11. Find out what the most recently modified directory is in mtec1003-lab-02.<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">How would you find this out?</span></p>
+<p class="p1"><span class="s1">Hint: perhaps use something to show the modified date... and sort it by time...</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">*Also, be sure to cd into your mtec1003-lab-02 folder first!</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command(s) that you used to do this below:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p4"><span class="s2">-mtime n +5</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">12. Create a compressed archive of the logs folder:<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">that is, take the contents of logs and create a single archive (.tar), and compress (.gz)</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">Write the command(s) that you used to do this below:</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p4"><span class="s2">gzip</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1"><br>
+</span></p>
+<p class="p1"><span class="s1">==========</span></p>
+<p class="p1"><span class="s1">13. To finish up, save this file and, using your mouse or with a Terminal command,<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">move it into your mtec1003-lab-02 folder.<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">Next: Go on to LAB 2 / PART 2...</span></p>
+<p class="p1"><span class="s1">----------</span></p>
+<p class="p1"><span class="s1">&lt;/pre&gt;&lt;/body&gt;&lt;/html&gt;</span></p>
+</body>
+</html>
+    ( > \ k � � � � � �                           5�
